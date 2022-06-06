@@ -1,0 +1,17 @@
+@layer-utilities{
+    .text-orangeGrad{
+        color: linear-gradient(270deg, #FF834F 17.19%, #FF5E11 84.9%);
+    }
+
+    .bg-orangeGrad{
+        background: linear-gradient(270deg, #FF834F 17.19%, #FF5E11 84.9%);
+    }
+
+    .bg-darkGrad{
+        background: linear-gradient(312.98deg, #161616 25.17%, #0F0F0F 57.34%);
+    }
+
+    .text-darkGrad{
+        color: linear-gradient(312.98deg, #161616 25.17%, #0F0F0F 57.34%);
+    }
+}
