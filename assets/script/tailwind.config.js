@@ -12,6 +12,9 @@ tailwind.config = {
             orangeGradient1: "#FF834F",
             orangeGradient2: "#FF5E11",
         },
+        animation: {
+          'spin-slow': 'spin 30s linear infinite',
+        }
       }
     }
   }
