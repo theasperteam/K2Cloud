@@ -8,7 +8,8 @@ html, body{
     width:100%;
     height: 100%;
     overflow-x : hidden;
-    background-color: #0f0f0f;
+    background: rgb(22,22,22);
+    background: linear-gradient(350deg, rgba(22,22,22,1) 0%, rgba(15,15,15,1)  100%);
 }
 
 a{
@@ -19,4 +20,15 @@ a{
 a:hover{
     color : #ff5e11;
     text-decoration: none;
+}
+
+.bg-gradient-gray {
+    background: rgb(77,77,77);
+    background: linear-gradient(180deg, rgba(77,77,77,1) 0%, rgba(49,49,49,1) 100%);
+}
+
+.text-gradient-orange {
+    background: -webkit-linear-gradient(#FF834F, #FF5E11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

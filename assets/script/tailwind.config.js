@@ -3,7 +3,7 @@ tailwind.config = {
       extend: {
         colors: {
             headingColor : '#FDFDFD',
-            textColor : "#F1F1F1",
+            textColor : "#CCCCCC",
             primaryDark : "#0F0F0F",
             gray1: "#4D4D4D",
             gray2 : "#313131",
