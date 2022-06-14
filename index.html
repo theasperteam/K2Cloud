@@ -19,7 +19,7 @@
     <!-- Link to the file hosted on your server, -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script> -->
 
     <!-- font awesome -->
     <link
@@ -54,56 +54,6 @@
           </button>
         </div>
       </header>
-
-      <!-- navbar -->
-
-      <!-- <nav
-        class="p-5 shadow bg-white md:flex md:items-center md:justify-between"
-      >
-        <div class="flex justify-between items-center z-30 relative">
-          <span class="text-2xl font-[Poppins] cursor-pointer">
-            <img
-              class="object-cover object-center rounded w-16 h-16 inline"
-              alt="hero"
-              src="assets/images/Illustrations/Landing.png"
-            />
-            Tailwind
-          </span>
-          <span class="cursor-pointer text-2xl md:hidden block mx-2">
-            <i class="fa-solid fa-bars" id="menuIcon" onclick="menuToggle()"></i>
-            <i class="fa-solid fa-xmark hidden" id="closeIcon" onclick="closeToggle()"></i>
-          </span>
-        </div>
-
-        <ul
-        id="list"
-          class="md:flex md:items-center z-20
-          md:z-auto md:static absolute bg-white
-          md:w-auto w-full left-0 md:py-0 py-4 md:pl-0 pl-7
-          md:opacity-100 opacity-0 top-[-320px] ease-in duration-100"
-        >
-          <li class="mx-2 my-2 md:my-0">
-            <a class="text-xl hover:text-cyan-500 duration-500" href="#"
-              >About Us</a
-            >
-          </li>
-          <li class="mx-2 my-2 md:my-0">
-            <a class="text-xl hover:text-cyan-500 duration-500" href="#"
-              >Services</a
-            >
-          </li>
-          <li class="mx-2 my-2 md:my-0">
-            <a class="text-xl hover:text-cyan-500 duration-500" href="#"
-              >Team</a
-            >
-          </li>
-          <button
-            class="mx-2 my-2 md:my-0 text-white bg-gradient-to-r from-orangeGradient1 to-orangeGradient2 border-0 py-2 px-6 hover:scale-95 duration-300 rounded text-md"
-          >
-            Get Started
-          </button>
-        </ul>
-      </nav> -->
 
       <!-- Landing  -->
 
@@ -328,30 +278,123 @@
 
       <!-- testimonials  -->
 
-      <!-- <section id="image-carousel" class="splide" aria-label="Beautiful Images">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <img
-                src="assets/images/Illustrations/Finance-pana.png"
-                alt="images"
-              />
-            </li>
-            <li class="splide__slide">
-              <img
-                src="assets/images/Illustrations/Finance-pana.png"
-                alt="images"
-              />
-            </li>
-            <li class="splide__slide">
-              <img
-                src="assets/images/Illustrations/Finance-pana.png"
-                alt="images"
-              />
-            </li>
-          </ul>
+      <section id="image-carousel" class="splide my-20 justify-center" aria-label="Beautiful Images">
+        <div class="flex flex-col justify-center mb-16 items-center">
+          <p class="md:text-4xl text-2xl font-bold text-headingColor">
+            Why choose us
+          </p>
+          <p class="my-4 md:w-1/2 w-5/6 text-center text-textColor">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            perspiciatis quod sed quibusdam perferendis sunt ad molestiae vel.
+          </p>
         </div>
-      </section> -->
+
+         
+          
+          <!-- main slider  -->
+          <div class="splide__track">
+
+             <!-- buttons -->
+          <div class="splide__arrows flex flex-row items-center">
+            <button class="mx-4 splide__arrow splide__arrow--prev bg-gradient-to-r from-orangeGradient1 to-orangeGradient2 px-6 py-6 opacity-100">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button class="mx-4 splide__arrow splide__arrow--next bg-gradient-to-r from-orangeGradient2 to-orangeGradient1 px-6 py-6 opacity-100">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="p-4 w-full">
+                  <div class="h-full bg-gradient-gray p-8 rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                    <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                        <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="p-4 w-full">
+                  <div class="h-full bg-gradient-gray p-8 rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                    <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                        <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="p-4 w-full">
+                  <div class="h-full bg-gradient-gray p-8 rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                    <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                        <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="p-4 w-full">
+                  <div class="h-full bg-gradient-gray p-8 rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                    <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                        <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="p-4 w-full">
+                  <div class="h-full bg-gradient-gray p-8 rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                    <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                        <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        
+      </section>
+
     </div>
 
     <!-- footer -->
@@ -384,16 +427,16 @@
           </h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-textColor hover:text-gray-800">First Link</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Home</a>
             </li>
             <li>
-              <a class="text-textColor hover:text-gray-800">Second Link</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">About Us</a>
             </li>
             <li>
-              <a class="text-textColor hover:text-gray-800">Third Link</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Team</a>
             </li>
             <li>
-              <a class="text-textColor hover:text-gray-800">Fourth Link</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Contact Us</a>
             </li>
           </nav>
         </div>
@@ -408,41 +451,43 @@
           </h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-textColor hover:text-gray-800">Roles as Service</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Roles as Service</a>
             </li>
             <li>
-              <a class="text-textColor hover:text-gray-800">Build and Develop</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Build and Develop</a>
             </li>
             <li>
-              <a class="text-textColor hover:text-gray-800">Run and Operate</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Run and Operate</a>
             </li>
             <li>
-              <a class="text-textColor hover:text-gray-800">Transformations</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Transformations</a>
             </li>
             </li>
             <li>
-              <a class="text-textColor hover:text-gray-800">Operations</a>
+              <a class="text-textColor hover:text-headingColor duration-200 ease-in-out" href="#">Operations</a>
             </li>
           </nav>
         </div>
           
         </div>
 
-        <div class="flex flex-col lg:w-1/4 md:w-1/4 w-full px-4">
-          <h2 class=" lg:w-full md:w-full w-2/3 md:mx-0 mx-auto title-font font-medium text-headingColor text-lg mb-3 text-center md:text-left">
-            Get connected with us and digitally transformed
-          </h2>
-          <span class="inline-flex text-xl my-2 md:mx-0 mx-auto">
-            <i
-              class="fa-brands fa-twitter mr-2 hover:text-orangeGradient1 duration-300 ease-in-out"
-            ></i>
-            <i
-              class="fa-brands fa-linkedin-in mr-2 hover:text-orangeGradient1 duration-300 ease-in-out"
-            ></i>
-            <i
-              class="fa-brands fa-linkedin-in mr-2 hover:text-orangeGradient1 duration-300 ease-in-out"
-            ></i>
-          </span>
+        <div class="flex flex-col lg:w-1/4 md:w-1/4 w-full text-center md:text-left items-center px-4">
+          <div class="items-start">
+            <h2 class=" lg:w-full md:w-full w-2/3 md:mx-0 mx-auto title-font font-medium text-headingColor text-lg mb-3 text-center md:text-left">
+              Get connected with us and digitally transformed
+            </h2>
+            <span class="inline-flex text-xl my-2 md:mx-0 mx-auto">
+              <i
+                class="fa-brands fa-twitter mr-4 cursor-pointer text-textColor hover:text-orangeGradient1 duration-300 ease-in-out"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin-in mr-4 cursor-pointer text-textColor hover:text-orangeGradient1 duration-300 ease-in-out"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin-in mr-4 cursor-pointer text-textColor hover:text-orangeGradient1 duration-300 ease-in-out"
+              ></i>
+            </span>
+          </div>
         </div>
       </div>
 
@@ -473,10 +518,22 @@
       document.addEventListener("DOMContentLoaded", function () {
         new Splide(".splide", {
           perPage: 3,
+          pagination : false,
+          type: "loop",
+          focus: "center",
           breakpoints: {
-            640: {
-              perPage: 3,
+            400: {
+              perPage: 1.2,
             },
+            640: {
+              perPage: 1.2,
+            },
+            960: {
+              perPage: 2,
+            },
+            1440: {
+              perPage: 2,
+            }
           },
         }).mount();
       });
