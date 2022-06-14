@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-html, body{
+body{
     width:100%;
     height: 100%;
     overflow-x : hidden;
     background: #0f0f0f;
+    color: #DFDFDF;
 }
 
 a{
@@ -19,4 +20,25 @@ a{
 a:hover{
     color : #ff5e11;
     text-decoration: none;
+}
+
+.text-orangeGrad{
+    background: linear-gradient(-270deg, #FF834F 17.19%, #FF5E11 84.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.bg-orangeGrad{
+    background: linear-gradient(270deg, #FF834F 17.19%, #FF5E11 84.9%);
+}
+
+.bg-darkGrad{
+    background: linear-gradient(90deg, #161616 25.17%, #313131 57.34%);
+}
+
+.text-darkGrad{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: linear-gradient(312.98deg, #161616 25.17%, #0F0F0F 57.34%);
 }
