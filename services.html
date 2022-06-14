@@ -19,6 +19,8 @@
       type="image/x-icon"
       href="./assets/images/favicon/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
 
     <!-- font awesome -->
     <link
@@ -32,37 +34,44 @@
     <div class="container max-w-7xl mx-auto">
       <!-- navbar -->
 
-      <header class="container max-w-7xl mx-auto text-gray-600 body-font">
-        <div class="flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a
-            class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
-          >
+      <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+        <a href="index.html" class="flex items-center">
+        <img src="./assets/images/favicon/android-chrome-512x512.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">K2Cloud Engineering</span>
+        </a>
+        <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:items-center">
+        <li>
+        <a href="index.html" class="block py-2 pr-4 pl-3 text-white md:p-0 ">Home</a>
+        </li>
+        <li>
+          <a href="about.html" class="block py-2 pr-4 pl-3 text-white md:p-0 ">Vision</a>
+        </li>
+        <li>
+          <a href="services.html" class="block py-2 pr-4 pl-3 text-white md:p-0 ">Solution</a>
+        </li>
+        <li>
+          <a href="team.html" class="block py-2 pr-4 pl-3 text-white md:p-0 ">Team</a>
+        </li>
+        <li>
+          <a href="contact.html" class="block py-2 pr-4 pl-3 text-white md:p-0 ">
+            <button
+                  class="inline-flex text-white bg-orangeGrad border-0 py-2 px-6 hover:scale-95 duration-300 rounded text-md md:ml-4"
+                >
+                  Get Started
+                </button>
           </a>
-          <nav
-            class="md:ml-auto flex flex-wrap items-center text-base justify-center"
-          >
-            <a class="mr-6 hover:text-gray1" href="about.html">About us</a>
-            <a class="mr-6 hover:text-gray1" href="services.html">Services</a>
-            <a class="mr-6 hover:text-gray1" href="team.html">Team</a>
-          </nav>
-          <button
-            class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
-          >
-            Button
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+        </li>
+        </ul>
         </div>
-      </header>
+        </div>
+        </nav>
 
       <!-- landing -->
 
