@@ -9,7 +9,7 @@ body{
     height: 100%;
     overflow-x : hidden;
     background: rgb(22,22,22);
-    background: linear-gradient(350deg, rgba(22,22,22,1) 0%, rgba(15,15,15,1)  100%);
+    color: #DFDFDF;
 }
 
 a{
@@ -30,11 +30,11 @@ a:hover{
 
 
 .bg-orangeGrad{
-    background: linear-gradient(270deg, #FF834F 17.19%, #FF5E11 84.9%);
+    background: linear-gradient(-270deg, #FF834F 17.19%, #FF5E11 84.9%);
 }
 
 .bg-darkGrad{
-    background: linear-gradient(90deg, #161616 25.17%, #313131 57.34%);
+    background: linear-gradient(0deg, #161616 25.17%, #313131 57.34%);
 }
 
 .text-darkGrad{
@@ -52,4 +52,19 @@ a:hover{
     background: -webkit-linear-gradient(#FF834F, #FF5E11);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+input{
+    border-radius: 5px;
+    background-color:#313131 ;
+    height:30px;margin-top: 10px;
+    width:100%;
+    padding:10px 5px;
+}
+
+textarea{
+    border-radius: 5px;
+    background-color:#313131 ;
+    margin-top: 10px;
+    width:100%;
 }
