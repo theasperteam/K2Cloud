@@ -14,6 +14,7 @@ tailwind.config = {
         },
         animation: {
           'spin-slow': 'spin 30s linear infinite',
+          'bounce-slow': 'bounce 5s linear infinite',
         }
       }
     }
