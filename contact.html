@@ -18,9 +18,6 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
@@ -33,9 +30,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    
+
     <!-- Animate on Scroll CSS  -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>K2Cloud | Contact</title>
   </head>
@@ -44,6 +41,7 @@
     <!-- complete page container -->
 
     <div class="container max-w-7xl mx-auto">
+      <!-- Navbar -->
       <!-- Navbar -->
       <nav class="border-gray-200 px-2 sm:px-4 py-4 rounded">
         <div
@@ -56,7 +54,7 @@
               alt="Flowbite Logo"
             />
             <span
-              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              class="self-center text-xl font-semibold whitespace-nowrap dark:text-headingColor"
               >K2Cloud Engineering</span
             >
           </a>
@@ -100,40 +98,40 @@
               <li>
                 <a
                   href="index.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  class="block py-2 pr-4 pl-3 text-headingColor hover:text-orangeGradient2 md:p-0 font-semibold"
                   >Home</a
                 >
               </li>
               <li>
                 <a
                   href="about.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  class="block py-2 pr-4 pl-3 text-headingColor hover:text-orangeGradient2 md:p-0 font-semibold"
                   >Vision</a
                 >
               </li>
               <li>
                 <a
                   href="services.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  class="block py-2 pr-4 pl-3 text-headingColor hover:text-orangeGradient2 md:p-0 font-semibold"
                   >Solution</a
                 >
               </li>
               <li>
                 <a
                   href="team.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  class="block py-2 pr-4 pl-3 text-headingColor hover:text-orangeGradient2 md:p-0 font-semibold"
                   >Team</a
                 >
               </li>
               <li>
                 <a
-                  href="contact.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  href="./contact.html"
+                  class="block py-2 pr-4 pl-3 text-white md:p-0"
                 >
                   <button
                     class="inline-flex text-white bg-orangeGrad border-0 py-2 px-6 hover:scale-95 duration-300 rounded text-md md:ml-4"
                   >
-                    Get Started
+                    Contact Us
                   </button>
                 </a>
               </li>
@@ -141,17 +139,26 @@
           </div>
         </div>
       </nav>
+
       <!-- Navbar -->
 
       <!-- Hero -->
-      <div class="container mx-auto max-w-7xl text-center py-10" data-aos="fade-up">
-        <p class="font-bold md:text-5xl text-3xl mb-3">Let's Connect</p>
-        <p>Feel Free To Contact Us</p>
+      <div
+        class="container mx-auto max-w-7xl text-center py-10"
+        data-aos="fade-up"
+      >
+        <p class="font-bold md:text-5xl text-3xl mb-3 text-headingColor">
+          Let's <span class="text-orangeGrad">Connect</span>
+        </p>
+        <p class="text-textColor">Feel Free To Contact Us</p>
       </div>
       <!-- Hero -->
 
       <!-- Form -->
-      <div class="container mx-auto max-w-7xl flex items-center my-10" data-aos="fade-up">
+      <div
+        class="container mx-auto max-w-7xl flex items-center my-10"
+        data-aos="fade-up"
+      >
         <div class="md:w-1/2 w-full justify-center flex">
           <img
             src="./assets/images/Illustrations/Call center-cuate.png"
@@ -161,19 +168,19 @@
         <div class="md:w-1/3 w-full">
           <form method="POST" action="" id="ContactForm" class="space-y-5">
             <div>
-              <label for="name">Name</label>
+              <label class="text-textColor" for="name">Name</label>
               <input type="text" id="name" name="name" required />
             </div>
             <div>
-              <label for="email">Email</label>
+              <label class="text-textColor" for="email">Email</label>
               <input type="email" id="email" name="email" required />
             </div>
             <div>
-              <label for="contact">Contact</label>
+              <label class="text-textColor" for="contact">Contact</label>
               <input type="contact" id="contact" name="contact" required />
             </div>
             <div>
-              <label for="message">Message</label>
+              <label class="text-textColor" for="message">Message</label>
               <textarea rows="4" class="mt-[8px]" required></textarea>
             </div>
             <button
@@ -187,8 +194,11 @@
       <!-- Form -->
 
       <!-- Contact Details -->
-      <div class="container mx-auto max-w-5xl flex items-center" data-aos="fade-up">
-        <div class="md:w-1/2 w-full space-y-5">
+      <div
+        class="container mx-auto max-w-5xl my-16 py-8 flex items-center"
+        data-aos="fade-up"
+      >
+        <div class="md:w-1/2 w-full space-y-5 text-textColor">
           <div class="flex items-start space-x-3">
             <i class="fa-solid fa-phone text-orangeGrad text-lg pt-1"></i>
             <div>
@@ -239,11 +249,6 @@
         <div
           class="md:w-1/4 w-2/3 md:mx-0 mx-auto md:mb-0 mb-8 text-center md:text-left"
         >
-          <!-- <a
-            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
-          >
-            <span class="text-2xl text-headingColor">K2Cloud</span>
-          </a> -->
           <a
             href="index.html"
             class="flex title-font font-medium items-center md:justify-start justify-center text-headingColor mb-4"
@@ -269,7 +274,7 @@
         >
           <div class="items-start">
             <h2 class="title-font font-medium text-headingColor text-lg mb-3">
-              Pages
+              Company
             </h2>
             <nav class="list-none mb-10">
               <li>
@@ -282,21 +287,21 @@
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./about.html"
                   >About Us</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./team.html"
                   >Team</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./contact.html"
                   >Contact Us</a
                 >
               </li>
@@ -315,35 +320,42 @@
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#roles"
                   >Roles as Service</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
-                  >Build and Develop</a
+                  href="./services.html#build"
+                  >It Applications</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#products"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor hover:text-headingColor duration-200 ease-in-out"
+                  href="./services.html#run"
                   >Run and Operate</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#transformation"
                   >Transformations</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#operation"
                   >Operations</a
                 >
               </li>
@@ -367,9 +379,6 @@
               <i
                 class="fa-brands fa-linkedin-in mr-4 cursor-pointer text-textColor hover:text-orangeGradient1 duration-300 ease-in-out"
               ></i>
-              <i
-                class="fa-brands fa-linkedin-in mr-4 cursor-pointer text-textColor hover:text-orangeGradient1 duration-300 ease-in-out"
-              ></i>
             </span>
           </div>
         </div>
@@ -386,7 +395,7 @@
               rel="noopener noreferrer"
               class="text-orangeGradient1"
               target="_blank"
-              >@knyttneve</a
+              >@theasperteam</a
             >
           </p>
         </div>

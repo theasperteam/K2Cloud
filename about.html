@@ -27,7 +27,7 @@
     />
 
     <!-- Animate on Scroll CSS  -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>K2Cloud | About</title>
   </head>
 
@@ -35,6 +35,7 @@
     <div class="container mx-auto max-w-7xl">
       <!-- Navbar -->
 
+      <!-- Navbar -->
       <nav class="border-gray-200 px-2 sm:px-4 py-4 rounded">
         <div
           class="container flex flex-wrap justify-between items-center mx-auto"
@@ -46,7 +47,7 @@
               alt="Flowbite Logo"
             />
             <span
-              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              class="self-center text-xl font-semibold whitespace-nowrap dark:text-headingColor"
               >K2Cloud Engineering</span
             >
           </a>
@@ -90,40 +91,40 @@
               <li>
                 <a
                   href="index.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  class="block py-2 pr-4 pl-3 text-headingColor hover:text-orangeGradient2 md:p-0 font-semibold"
                   >Home</a
                 >
               </li>
               <li>
                 <a
                   href="about.html"
-                  class="block py-2 pr-4 pl-3 text-gradient-orange md:p-0"
+                  class="block py-2 pr-4 pl-3 text-orangeGradient2 md:p-0 font-semibold"
                   >Vision</a
                 >
               </li>
               <li>
                 <a
                   href="services.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  class="block py-2 pr-4 pl-3 text-headingColor hover:text-orangeGradient2 md:p-0 font-semibold"
                   >Solution</a
                 >
               </li>
               <li>
                 <a
                   href="team.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  class="block py-2 pr-4 pl-3 text-headingColor hover:text-orangeGradient2 md:p-0 font-semibold"
                   >Team</a
                 >
               </li>
               <li>
                 <a
-                  href="contact.html"
-                  class="block py-2 pr-4 pl-3 text-headingColor md:p-0"
+                  href="./contact.html"
+                  class="block py-2 pr-4 pl-3 text-white md:p-0"
                 >
                   <button
                     class="inline-flex text-white bg-orangeGrad border-0 py-2 px-6 hover:scale-95 duration-300 rounded text-md md:ml-4"
                   >
-                    Get Started
+                    Contact Us
                   </button>
                 </a>
               </li>
@@ -136,17 +137,20 @@
 
       <!-- Hero -->
       <div
-        class="text-center max-w-5xl px-5 md:px-0 text-md min-h-[75vh] flex flex-col items-center justify-center mx-auto"
-        data-aos="fade-up">
+        class="text-center max-w-5xl px-5 md:px-0 text-md min-h-[65vh] flex flex-col items-center justify-center mx-auto"
+        data-aos="fade-up"
+      >
         <img
           src="./assets/images/favicon/android-chrome-192x192.png"
           class="md:h-14 h-10"
           alt="logoFav"
         />
-        <p class="md:text-5xl text-3xl font-bold md:my-8 my-4">
+        <p
+          class="md:text-5xl text-3xl font-bold md:my-8 my-4 text-headingColor"
+        >
           More About<span class="text-orangeGrad"> K2 Cloud</span>
         </p>
-        <p>
+        <p class="text-textColor">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ac
           aliquam viverra tellus ut et. Egestas nibh et sodales pellentesque
           commodo pharetra, mauris, habitant. Metus tortor sit est tristique
@@ -160,45 +164,41 @@
 
       <!-- Numbers -->
       <div
-        class="bg-gradient-gray flex container mx-auto justify-around md:w-[80 vw] flex-wrap text-center p-4 py-7 md:text-lg text-md mb-10 font-semibold my-4 gap-y-5 gap-x-5 rounded-md"
+        class="bg-gradient-gray flex container mx-auto justify-around md:w-[80 vw] flex-wrap text-center px-6 py-12 md:text-lg text-md mb-10 font-semibold gap-y-5 gap-x-5 rounded-md"
       >
         <div>
-          <p class="text-orangeGrad font-bold text-lg md:text-2xl">20</p>
-          <p>Years of Experience</p>
+          <p class="text-orangeGrad font-bold text-lg md:text-2xl value" last="20">0</p>
+          <p class="text-textColor">Years of Experience</p>
         </div>
         <div>
-          <p class="text-orangeGrad font-bold text-lg md:text-2xl">10K</p>
-          <p>Business Partners</p>
+          <p class="text-orangeGrad font-bold text-lg md:text-2xl value" last="10000">0</p>
+          <p class="text-textColor">Business Partners</p>
         </div>
         <div>
-          <p class="text-orangeGrad font-bold text-lg md:text-2xl">25M</p>
-          <p>Products Installed</p>
+          <p class="text-orangeGrad font-bold text-lg md:text-2xl value" last="5000">0</p>
+          <p class="text-textColor">Products Installed</p>
         </div>
         <div>
-          <p class="text-orangeGrad font-bold text-lg md:text-2xl">22</p>
-          <p>Countries Worldwide</p>
-        </div>
-        <div>
-          <p class="text-orangeGrad font-bold text-lg md:text-2xl">22</p>
-          <p>Countries Worldwide</p>
+          <p class="text-orangeGrad font-bold text-lg md:text-2xl value" last="30">0</p>
+          <p class="text-textColor">Countries Worldwide</p>
         </div>
       </div>
       <!-- Numbers -->
 
       <!-- Mission -->
       <div
-        class="flex max-w-7xl container mx-auto my-16 items-center md:text-left text-center md:flex-row flex-col"
+        class="flex max-w-7xl container mx-auto my-16 py-4 md:py-16 items-center md:text-left text-center md:flex-row flex-col"
       >
-        <div class="md:w-1/2 w-full" data-aos="fade-up">
-          <p class="font-bold text-4xl mb-6">Our Mission</p>
+        <div class="md:w-1/2 w-full md:order-1 order-2" data-aos="fade-up">
+          <p class="font-bold text-4xl mb-6 text-headingColor">Our Mission</p>
           <div class="text-md md:text-lg px-5 md:px-0">
-            <p class="mb-2">
+            <p class="mb-2 text-textColor">
               Provide the highest quality technology-based services, in the most
               cost-effective manner, to facilitate the customers mission as it
               applies to the effeciency, management, teaching, learning,
               innovation and scaling challenges.
             </p>
-            <p>
+            <p class="text-textColor">
               To meet this mission we will: Provide effective technology support
               for audio/visual, computer, multimedia, voice, video, and web
               based applications and services to all areas of the college.
@@ -209,11 +209,11 @@
           </div>
         </div>
 
-        <div class="md:w-1/2 w-full" data-aos="fade-up">
+        <div class="md:w-1/2 w-full md:order-2 order-1" data-aos="fade-up">
           <img
-            src="./assets/images/Illustrations/Mission.png"
+            src="./assets/images/Images/Our_mission2.jpg"
             alt="mission"
-            class="w-1/2 md:w-2/3 md:ml-auto mx-auto"
+            class="md:w-5/6 w-2/3 mb-8 md:mb-0 md:ml-auto mx-auto rounded-md"
           />
         </div>
       </div>
@@ -224,104 +224,66 @@
         class="max-w-7xl mx-auto grid md:grid-cols-2 grid-cols-1 gap-5 gap-y-6 px-5 md:px-0"
       >
         <div
-          class="border-2 border-[#FF5E11] rounded-md flex space-x-3 text-xl p-3 items-center hover:bg-[#FF5E11]"
-          data-aos="fade-up">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#DFDFDF"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-            />
-          </svg>
-          <p>Excellence And Leadership</p>
+          class="border-2 border-gray1 hover:border-orangeGradient2 duration-300 ease-in-out rounded-md flex space-x-3 text-xl p-3 items-center"
+          data-aos="fade-up"
+        >
+          <i
+            class="fa-solid fa-globe text-2xl m-0.5 text-transparent bg-clip-text bg-gradient-to-b from-orangeGradient1 to-orangeGradient2"
+          ></i>
+          <p class="text-headingColor">Excellence And Leadership</p>
         </div>
         <div
-          class="border-2 border-[#FF5E11] rounded-md flex space-x-3 text-xl p-3 items-center hover:bg-[#FF5E11]"
-          data-aos="fade-up">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#DFDFDF"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-            />
-          </svg>
-          <p>Excellence And Leadership</p>
+          class="border-2 border-gray1 hover:border-orangeGradient2 duration-300 ease-in-out rounded-md flex space-x-3 text-xl p-3 items-center"
+          data-aos="fade-up"
+        >
+          <i
+            class="fa-solid fa-globe text-2xl m-0.5 text-transparent bg-clip-text bg-gradient-to-b from-orangeGradient1 to-orangeGradient2"
+          ></i>
+          <p class="text-headingColor">Excellence And Leadership</p>
         </div>
         <div
-          class="border-2 border-[#FF5E11] rounded-md flex space-x-3 text-xl p-3 items-center hover:bg-[#FF5E11]"
-          data-aos="fade-up">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#DFDFDF"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-            />
-          </svg>
-          <p>Excellence And Leadership</p>
+          class="border-2 border-gray1 hover:border-orangeGradient2 duration-300 ease-in-out rounded-md flex space-x-3 text-xl p-3 items-center"
+          data-aos="fade-up"
+        >
+          <i
+            class="fa-solid fa-globe text-2xl m-0.5 text-transparent bg-clip-text bg-gradient-to-b from-orangeGradient1 to-orangeGradient2"
+          ></i>
+          <p class="text-headingColor">Excellence And Leadership</p>
         </div>
         <div
-          class="border-2 border-[#FF5E11] rounded-md flex space-x-3 text-xl p-3 items-center hover:bg-[#FF5E11]"
-          data-aos="fade-up">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#DFDFDF"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-            />
-          </svg>
-          <p>Excellence And Leadership</p>
+          class="border-2 border-gray1 hover:border-orangeGradient2 duration-300 ease-in-out rounded-md flex space-x-3 text-xl p-3 items-center"
+          data-aos="fade-up"
+        >
+          <i
+            class="fa-solid fa-globe text-2xl m-0.5 text-transparent bg-clip-text bg-gradient-to-b from-orangeGradient1 to-orangeGradient2"
+          ></i>
+          <p class="text-headingColor">Excellence And Leadership</p>
         </div>
       </div>
       <!-- Purpose And Core Values -->
 
       <!-- Purpose -->
       <div
-        class="flex max-w-7xl container mx-auto my-16 items-center md:text-left text-center md:flex-row flex-col items-center"
+        class="flex max-w-7xl container mx-auto my-16 py-4 md:py-16 items-center md:text-left text-center md:flex-row flex-col items-center"
       >
         <div class="md:w-1/2 w-full" data-aos="fade-up">
           <img
-            src="./assets/images/Illustrations/Purpose.png"
+            src="./assets/images/Images/Values.jpg"
             alt="mission"
-            class="md:w-2/3 w-1/2 mx-auto md:mx-0"
+            class="md:w-5/6 w-2/3 mb-8 md:mb-0 mx-auto md:mx-0 rounded-md"
           />
         </div>
         <div class="md:w-1/2 w-full px-5 md:px-0" data-aos="fade-up">
-          <p class="font-bold text-4xl mb-6">Purpose And Core Values</p>
+          <p class="font-bold text-4xl mb-6 text-headingColor">
+            Purpose And Core Values
+          </p>
           <div class="text-md md:text-lg space-y-5">
-            <p class="mb-2">
+            <p class="mb-2 text-textColor">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
               ipsum dolor sit amet, consectetur adipiscing elit. Pharetra urna
               etiam elit lorem. Id aliquet sed pellentesque commodo posuere.
             </p>
-            <p>
+            <p class="text-textColor">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
               ipsum dolor sit amet, consectetur adipiscing elit. Pharetra urna
               etiam elit lorem. Id aliquet sed pellentesque commodo posuere.
@@ -334,9 +296,10 @@
       <!-- Partners -->
       <div
         class="mx-auto flex flex-row justify-between items-center my-24 px-5 md:px-0"
-        data-aos="fade-up">
+        data-aos="fade-up"
+      >
         <div
-          class="text-4xl md:pr-24 pr-0 border-r-0 md:w-auto w-full md:border-r-2 border-slate-400 md:text-start text-center"
+          class="text-4xl md:pr-24 pr-0 border-r-0 md:w-auto w-full md:border-r-2 border-slate-400 text-headingColor md:text-start text-center"
         >
           Our
           <span class="md:block inline-block font-bold text-orangeGrad"
@@ -373,22 +336,26 @@
       <!-- CTA -->
       <div
         class="bg-gradient-gray my-10 p-6 py-10 flex justify-around rounded-md md:flex-row flex-col"
-        data-aos="fade-up">
+        data-aos="fade-up"
+      >
         <img
           src="./assets/images/Illustrations/Market launch-pana.png"
-          class="h-32 md:w-auto w-1/3 md:mx-0 mx-auto animate-bounce-slow"
+          class="h-32 md:w-auto w-auto md:mx-2 mx-auto md:my-4 my-auto animate-bounce-slow"
         />
-        <div class="space-y-5 md:text-start text-center">
-          <p class="font-bold text-3xl">Make Your Business Fly With us</p>
-          <p>
-            Digital Transformation Made Easy Digital Transformation Made Easy
-            Digital Transformation Made Easy
+        <div class="md:text-start text-center w-2/3 mx-auto md:px-5 px-0">
+          <p class="font-bold text-2xl md:text-3xl text-headingColor my-2">
+            Make Your Business Fly With us
           </p>
+          <p class="text-textColor">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam sapiente beatae quibusdam iure placeat, nam rerum iste.
+          </p>
+          <a href="./contact.html">
           <button
-            class="inline-flex text-white bg-orangeGrad border-0 py-2 px-6 hover:scale-95 duration-300 rounded text-md"
+            class="inline-flex text-white bg-orangeGrad border-0 my-4 py-2 px-6 hover:scale-95 duration-300 rounded text-md"
           >
             Get Started
           </button>
+        </a>
         </div>
       </div>
       <!-- CTA -->
@@ -402,11 +369,6 @@
         <div
           class="md:w-1/4 w-2/3 md:mx-0 mx-auto md:mb-0 mb-8 text-center md:text-left"
         >
-          <!-- <a
-          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
-        >
-          <span class="text-2xl text-headingColor">K2Cloud</span>
-        </a> -->
           <a
             href="index.html"
             class="flex title-font font-medium items-center md:justify-start justify-center text-headingColor mb-4"
@@ -432,7 +394,7 @@
         >
           <div class="items-start">
             <h2 class="title-font font-medium text-headingColor text-lg mb-3">
-              Pages
+              Company
             </h2>
             <nav class="list-none mb-10">
               <li>
@@ -445,21 +407,21 @@
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./about.html"
                   >About Us</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./team.html"
                   >Team</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./contact.html"
                   >Contact Us</a
                 >
               </li>
@@ -478,35 +440,42 @@
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#roles"
                   >Roles as Service</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
-                  >Build and Develop</a
+                  href="./services.html#build"
+                  >It Applications</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#products"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor hover:text-headingColor duration-200 ease-in-out"
+                  href="./services.html#run"
                   >Run and Operate</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#transformation"
                   >Transformations</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor hover:text-headingColor duration-200 ease-in-out"
-                  href="#"
+                  href="./services.html#operation"
                   >Operations</a
                 >
               </li>
@@ -530,9 +499,6 @@
               <i
                 class="fa-brands fa-linkedin-in mr-4 cursor-pointer text-textColor hover:text-orangeGradient1 duration-300 ease-in-out"
               ></i>
-              <i
-                class="fa-brands fa-linkedin-in mr-4 cursor-pointer text-textColor hover:text-orangeGradient1 duration-300 ease-in-out"
-              ></i>
             </span>
           </div>
         </div>
@@ -549,7 +515,7 @@
               rel="noopener noreferrer"
               class="text-orangeGradient1"
               target="_blank"
-              >@knyttneve</a
+              >@theasperteam</a
             >
           </p>
         </div>
@@ -559,6 +525,9 @@
     <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
 
     <script src="./assets/script/tailwind.config.js"></script>
+    
+    <!-- operation toggle js -->
+    <script src="./assets/script/toggle.js"></script>
 
     <!-- Animate on Scroll JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
